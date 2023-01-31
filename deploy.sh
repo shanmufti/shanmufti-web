@@ -10,5 +10,5 @@ echo 'www.shanmufti.com' > CNAME
 
 git add -A
 git commit -m 'deploy'
-git push -f git@personal.github.com:shanmufti/shanmufti-web.git
+git push -f git@personal.github.com:shanmufti/shanmufti-web.git main:gh-pages
 cd -
